@@ -12,7 +12,6 @@ import random
  
 def guess_number():
     expected = random.randint(0,100)
-    print(expected)
     print("welcome to Number Guessing")
     guessed = input("Please type a number between 0 and 100: ").strip()
     while True:
