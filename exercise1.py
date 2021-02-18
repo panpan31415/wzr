@@ -18,6 +18,10 @@
 
 def nine_nine_table():
   # write your code here
-
+for i in range(9): # each line
+        l = "" # string for each line
+        for j in range(i+1):
+            l+=(str(i+1)+'*'+str(j+1)+'='+str(i*j+i+j+1)+' ')
+        print (l)
     
 nine_nine_table()
