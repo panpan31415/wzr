@@ -12,6 +12,7 @@ import random
  
 def guess_number():
     # write your code here
+    pass
             
 guess_number()
 
