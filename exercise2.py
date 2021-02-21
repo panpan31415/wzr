@@ -16,3 +16,18 @@ def guess_number():
             
 guess_number()
 
+import random
+def guess_number():
+    # write your code here
+    rand_number = random.randrange(0, 101)
+    input_number = input("Enter a number: ")
+    while (input_number.isnumeric()==False or int(input_number)!=rand_number):
+        if int(input_number)<rand_number:
+            print ("Too small.")
+        else:
+            print ("Too big.")
+        input_number = input("Enter another number: ")
+    else:
+        print ("Congratulations!")
+
+guess_number()
