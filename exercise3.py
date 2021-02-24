@@ -16,8 +16,15 @@
 
 
 def nine_nine_table():
-    # write your code here
-    pass
-
+    b = 9
+    while b >=1:
+        a = 1
+        while a <= b:
+            result = "{}*{}={} "
+            print(result.format(a, b, a*b), end="")
+            a += 1
+        b -= 1
+        print("", end="\n")
+    
 
 nine_nine_table()
